@@ -3,7 +3,7 @@ import React from "react";
 import "./collection-item.scss";
 
 const CollectionItem = ({ id, name, price, imageUrl }) => (
-  <div c2lassName="collection-item">
+  <div className="collection-item">
     <div
       className="image"
       style={{
